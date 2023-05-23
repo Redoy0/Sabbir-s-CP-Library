@@ -21,14 +21,15 @@ using namespace std;
 #define setneg(a)   memset(a,-1,sizeof(a))
 #define setinf(a)   memset(a,126,sizeof(a))
 
-#define tc1(x)      printf("Case %d: ",x)
-#define tc2(x)      printf("Case #%d: ",x)
-#define tc3(x)      printf("Case %d:\n",x)
-#define tc4(x)      printf("Case #%d:\n",x)
+#define tc1(x)      cout<<"Case "<<x<<": ";
+#define tc2(x)      cout<<"Case #"<<x<<": ";
+#define tc3(x)      cout<<"Case "<<x<<":\n";
+#define tc4(x)      cout<<"Case #"<<x<<":\n";
 
 #define pr1(x)      cout<<x<<"\n"
 #define pr2(x,y)    cout<<x<<" "<<y<<"\n"
 #define pr3(x,y,z)  cout<<x<<" "<<y<<" "<<z<<"\n"
+
 
 typedef long long ll;
 typedef unsigned long long ull;
@@ -39,18 +40,16 @@ typedef vector<int>vi;
 typedef vector<ll>vll;
 typedef vector<double>vd;
 
-int solve()
+void solve()
 {
-
-
 
 }
 int main()
-{   //Fast;
+{   Fast;
     int t=1,tc=1;
     cin>>t;
     while(tc<=t){
-        tc1(tc);
+        //cout<<"Case "<<tc<<": ";
         solve();
 
     tc++;
@@ -58,3 +57,4 @@ int main()
 
     return 0;
 }
+
