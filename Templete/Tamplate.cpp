@@ -14,12 +14,12 @@ using namespace std;
 #define all(x)      x.begin(),x.end()
 #define pb(a)       push_back(a)
 #define mp(a,b)     make_pair(a,b)
-#define sp          printf(" ")
-#define nl          printf("\n")
+#define sp          cout<<" "
+#define nl          cout<<"\n"
 
 #define set0(a)     memset(a,0,sizeof(a))
 #define setneg(a)   memset(a,-1,sizeof(a))
-#define setinf(a)   memset(a,126,sizeof(a))
+
 
 #define tc1(x)      cout<<"Case "<<x<<": ";
 #define tc2(x)      cout<<"Case #"<<x<<": ";
@@ -29,7 +29,6 @@ using namespace std;
 #define pr1(x)      cout<<x<<"\n"
 #define pr2(x,y)    cout<<x<<" "<<y<<"\n"
 #define pr3(x,y,z)  cout<<x<<" "<<y<<" "<<z<<"\n"
-
 
 typedef long long ll;
 typedef unsigned long long ull;
