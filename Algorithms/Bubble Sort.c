@@ -1,4 +1,3 @@
-///D. Far From Sorted
 #include<stdio.h>
 
 int Bubble_Sort(int a[],int n);
