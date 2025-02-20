@@ -19,6 +19,10 @@ using namespace std;
 
 #define set0(a)     memset(a,0,sizeof(a))
 #define setneg(a)   memset(a,-1,sizeof(a))
+#define toLower(s)  transform(s.begin(),s.end(),s.begin(),::tolower)
+#define toUpper(s)  transform(s.begin(),s.end(),s.begin(),::toupper)
+
+
 
 
 #define tc1(x)      cout<<"Case "<<x<<": ";
