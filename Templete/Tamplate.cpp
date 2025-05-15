@@ -13,6 +13,8 @@ using namespace std;
 #define sc          second
 #define all(x)      x.begin(),x.end()
 #define pb(a)       push_back(a)
+#define min_e(v)    *min_element(v.begin(), v.end())
+#define max_e(v)    *max_element(v.begin(), v.end());
 #define mp(a,b)     make_pair(a,b)
 #define sp          cout<<" "
 #define nl          cout<<"\n"
