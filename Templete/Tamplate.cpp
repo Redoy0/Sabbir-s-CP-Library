@@ -4,6 +4,8 @@ using namespace std;
 #define Fast ios_base :: sync_with_stdio(0);cin.tie(0);
 #define setp setprecision
 #define forn(i,j,n) for(int i=(j);i<n;i++)
+#define in(v) for(auto& i:v)  cin>>i;
+#define out(v) for(auto i:v)  cout<<i<<" ";
 
 #define mod         1000000007
 #define pi          acos(-1.0)
@@ -47,7 +49,11 @@ typedef vector<double>vd;
 
 void solve()
 {
-
+    int n;
+    cin>>n;
+    vi v(n);
+    in(v);
+    out(v);
 }
 int main()
 {   Fast;
@@ -62,4 +68,5 @@ int main()
 
     return 0;
 }
+
 
