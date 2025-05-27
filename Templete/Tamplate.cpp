@@ -53,7 +53,7 @@ void solve()
     cin>>n;
     vi v(n);
     in(v);
-    out(v);
+    
 }
 int main()
 {   Fast;
